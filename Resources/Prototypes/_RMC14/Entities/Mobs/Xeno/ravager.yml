@@ -30,9 +30,9 @@
     - ActionXenoRegurgitate
     - ActionXenoWatch
     - ActionXenoTailStab
-    #    - ActionXenoCharge
-    #    - ActionXenoEmpower
-    #    - ActionXenoScissorCut
+    - ActionXenoRavageCharge
+    - ActionXenoEmpower
+    #    - ActionXenoScissorCut ?
     - ActionXenoDevolve
     tier: 3
     hudOffset: 0,0.1
@@ -61,6 +61,8 @@
     tailDamage:
       groups:
         Brute: 54
+  - type: XenoRavageCharge
+  - type: XenoEmpower
   - type: Tackle
     max: 5
     chance: 0.35
