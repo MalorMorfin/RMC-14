@@ -14,18 +14,15 @@ public sealed partial class XenoRavageChargeComponent : Component
     [DataField, AutoNetworkedField]
     public FixedPoint2 PlasmaCost = 25;
 
-    [DataField]
-    public DamageSpecifier Damage = new();
-
     [DataField, AutoNetworkedField]
     public float Range = 5;
 
     [DataField, AutoNetworkedField]
-    public TimeSpan StunTime = TimeSpan.FromSeconds(2);
+    public TimeSpan StunTime = TimeSpan.FromSeconds(1);
 
     // TODO RMC14 extra sound on impact
     [DataField, AutoNetworkedField]
-    public SoundSpecifier Sound = new SoundPathSpecifier("/Audio/_RMC14/Xeno/alien_claw_flesh1.ogg");
+    public SoundSpecifier Sound = new SoundPathSpecifier("/Audio/_RMC14/Xeno/alien_roar1.ogg");
 
     [DataField, AutoNetworkedField]
     public Vector2? Charge;

@@ -30,8 +30,8 @@
     - ActionXenoRegurgitate
     - ActionXenoWatch
     - ActionXenoTailStab
-    - ActionXenoRavageCharge -
-    #    - ActionXenoEmpower ?
+    - ActionXenoRavageCharge
+    - ActionXenoEmpower
     #    - ActionXenoScissorCut ?
     - ActionXenoDevolve
     tier: 3
@@ -62,6 +62,7 @@
       groups:
         Brute: 54
   - type: XenoRavageCharge
+  - type: XenoEmpower
   - type: Tackle
     max: 5
     chance: 0.35
@@ -109,8 +110,8 @@
         - XenoHeavy
   - type: RMCSize
     size: Big
-  - type: RMCXenoDamageVisuals # TODO RMC14
-    prefix: ravager
+#  - type: RMCXenoDamageVisuals # TODO RMC14
+#    prefix: ravager
   - type: TacticalMapIcon
     icon:
       sprite: _RMC14/Interface/map_blips.rsi
